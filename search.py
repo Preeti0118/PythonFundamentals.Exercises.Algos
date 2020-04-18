@@ -23,6 +23,7 @@ def binary_search(list_in, item):
                 u = mid - 1
 
 
+#begin of code
 if __name__=='__main__':
 
     my_list = [2,89,46,10,34,99,23,67]
