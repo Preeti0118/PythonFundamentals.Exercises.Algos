@@ -22,15 +22,17 @@ def binary_search(list_in, item):
             else:
                 u = mid - 1
 
-my_list = [2,89,46,10,34,99,23,67]
-#my_item = 99
-my_item = 11
-item_pos = binary_search(my_list,my_item)
+if __name__=='__main__':
 
-if item_pos is None:
-    print("item not found")
-else:
-    print("position of the item is "+ str(item_pos + 1))
+    my_list = [2,89,46,10,34,99,23,67]
+    #my_item = 99
+    my_item = 11
+    item_pos = binary_search(my_list,my_item)
+
+    if item_pos is None:
+        print("item not found")
+    else:
+        print("position of the item is "+ str(item_pos + 1))
 
 
 
